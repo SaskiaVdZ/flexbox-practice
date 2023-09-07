@@ -1,0 +1,106 @@
+
+body {
+    background-color: lightsalmon;
+    margin: 0 auto;
+    min-height: 100vh; 
+}
+
+.container {
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around; 
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.card {
+    min-width: 468px;
+    min-height: 160px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color:tomato;
+    
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-between; 
+}
+
+.fifth {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.sixth {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.fourth .three {
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.fifth .two {
+    align-self: center;
+}
+
+.sixth .two {
+    flex-grow: 2;
+}
+
+.shape {
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(73, 14, 14, 0.25);
+    min-width: 78px;
+    min-height: 78px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+h3, p{
+    color: tomato;
+    padding: 15px;
+    font-size: medium;
+}
